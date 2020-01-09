@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  
+  name: mongohostconfig
+
+data:  
+  DATABASE_HOST:  "db-mongo-mongodb-replicaset-0.db-mongo-mongodb-replicaset.default.svc.cluster.local:27017,db-mongo-mongodb-replicaset-1.db-mongo-mongodb-replicaset.default.svc.cluster.local:27017,db-mongo-mongodb-replicaset-2.db-mongo-mongodb-replicaset.default.svc.cluster.local:27017/strapi?replicaSet=rs0"
+  DATABASE_URI:  "mongodb://db-mongo-mongodb-replicaset-0.db-mongo-mongodb-replicaset.default.svc.cluster.local"
+  how: fairlyNice
+  textmode: "true"
+  ME_CONFIG_MONGODB_SERVER: "db-mongo-mongodb-replicaset-0.db-mongo-mongodb-replicaset.default.svc.cluster.local,db-mongo-mongodb-replicaset-1.db-mongo-mongodb-replicaset.default.svc.cluster.local,db-mongo-mongodb-replicaset-2.db-mongo-mongodb-replicaset.default.svc.cluster.local/?replicaSet=rs0"

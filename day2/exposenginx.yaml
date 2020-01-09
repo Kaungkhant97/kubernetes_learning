@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: emongodb-service
+  labels:
+    name: nginx
+spec:
+  type: NodePort
+  ports:
+    - port: 30022
+      nodePort: 300
+      targetPort: 27017
+  # clusterIP: None
+  selector:
+    role: rss-site

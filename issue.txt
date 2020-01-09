@@ -1,0 +1,18 @@
+loadbalancer_firewall -> https://www.digitalocean.com/community/questions/limit-ip-access-to-the-load-balancer
+https://www.digitalocean.com/community/questions/load-balancer-private-ips-or-applying-firewall-rules-to-load-balancers
+https://ideas.digitalocean.com/ideas/DO-I-60
+
+
+headless service vs other -> https://dev.to/bzon/resizing-persistent-volumes-in-kubernetes-like-magic-4f96
+
+what to do when pvc (pv) storage is full? backup restore strategy > https://kubernetes.io/blog/2018/07/12/resizing-persistent-volumes-using-kubernetes/
+horizontal autoscaling best practices ?(how scalable the system can be?)
+what is best ingress controller and what best fits? adv and dadv(istio vs nginx)
+how to secure kube(best practices for rbac)
+how about continous integration?
+monitoring and observation?(which solution) how much observability
+package control and rolling update (helm?)
+networking?//(havent touch this yet)
+managing resource request  (pod affinity and node affinity)
+
+

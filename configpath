@@ -1,0 +1,10 @@
+alias kxpa='kubectl --kubeconfig="/Users/kaungkhantthu/Desktop/learning resource/expa_dc/expa-origin-kubeconfig.yaml"'
+alias hxpa='--kubeconfig="/Users/kaungkhantthu/Desktop/learning resource/expa_dc/kkt-kube-config.yaml"'
+
+		postgresql://doadmin:show-password@expa-staging-do-user-2500157-0.db.ondigitalocean.com:25060/defaultdb?sslmode=require    
+* 		username = doadmin
+* 		password = ecyb51gn05jtzmow
+* 		host = private-expa-staging-do-user-2500157-0.db.ondigitalocean.com
+* 		port = 25060
+* 		database = defaultdb
+* 		sslmode = require

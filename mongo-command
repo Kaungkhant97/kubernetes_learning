@@ -1,0 +1,2 @@
+mongodump --db [dbname] --out [dirname] --collection courses
+

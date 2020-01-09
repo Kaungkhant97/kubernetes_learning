@@ -1,0 +1,18 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "uri":"${process.env.DATABASE_HOST || 'mongodb://db-mongo-mongodb-replicaset-0.db-mongo-mongodb-replicaset.default.svc.cluster.local:27017,db-mongo-mongodb-replicaset-1.db-mongo-mongodb-replicaset.default.svc.cluster.local:27017,db-mongo-mongodb-replicaset-2.db-mongo-mongodb-replicaset.default.svc.cluster.local:27017/?replicaset=rs0'}",
+        "host": "${process.env.DATABASE_HOST || 'db-mongo-mongodb-replicaset-0.db-mongo-mongodb-replicaset.default.svc.cluster.local:27017,db-mongo-mongodb-replicaset-1.db-mongo-mongodb-replicaset.default.svc.cluster.local:27017,db-mongo-mongodb-replicaset-2.db-mongo-mongodb-replicaset.default.svc.cluster.local:27017/?replicaset=rs0'}",        
+        "port": "27017",
+        "database": "strapi",
+        "username": "",
+        "password": ""
+      },
+      "options": {}
+    }
+  }
+}
